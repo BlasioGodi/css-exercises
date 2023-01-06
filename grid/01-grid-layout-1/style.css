@@ -1,47 +1,23 @@
-body, html {
-  height: 100%;
-  margin: 0;
-}
-
-.container {
-  text-align: center;
-  height: 100%;
-  padding: 16px;
-  box-sizing: border-box;
-}
-
-.container div {
-  padding: 15px;
-  font-size: 32px;
-  font-family: Helvetica;
-  font-weight: bold;
-  color: white;
-  border-radius: 15px;
+html,
+body {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  height: 100vh;
 }
 
 .header {
-  background-color: #FFDE22;
+  background-color: #ffde22;
 }
-
 .sidebar {
-  background-color: #FF7755;
+  background-color: #ff7755;
 }
-
 .nav {
-  background-color: #00DDFF;
+  background-color: #00ddff;
 }
-
 .article {
   background-color: #bccbde;
 }
-
-.article p {
-  font-size: 18px;
-  font-family: sans-serif;
-  color: white;
-  text-align: left;
-}
-
 .footer {
   background-color: #393f4d;
 }
