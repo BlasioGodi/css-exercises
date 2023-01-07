@@ -1,21 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Moon+Dance&display=swap");
+
 body {
   margin: 0%;
 }
 
 .container {
+  resize: both;
+  overflow: auto;
   display: grid;
-  grid-template-rows: 2;
-  grid-template-columns: 5;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   gap: 5px;
   outline: none;
-  border: 1px solid blue;
+  height: 100vh;
+  outline: none;
 }
 
 .container div {
   background-color: red;
   color: white;
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Moon Dance", cursive;
   font-style: italic;
-  font-size: 1rem;
+  font-size: 2rem;
+  border-radius: 12px;
+  border: 1px solid black;
 }
